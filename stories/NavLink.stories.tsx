@@ -18,5 +18,6 @@ Active.args =  {
 export const Disabled = Template.bind({})
 Disabled.args = {
     text: "Disabled",
-    link: "/link"
+    link: "/link",
+    isActive: false
 }
